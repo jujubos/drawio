@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-22T09:17:11.657Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="jpAqA9kmMOpwn1bmv9Ee" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-22T09:17:37.642Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="iPQxiTTIYFWBqSW_FMsR" version="20.5.0" type="github">
   <diagram id="tubREqfwYt-Y6xkZrt_g" name="Page-1">
     <mxGraphModel dx="1426" dy="682" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -232,7 +232,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-174" value="A部署&amp;lt;merge&amp;gt;合约" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;glass=0;fontSize=15;fillColor=default;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="339" y="2688" width="174.5" height="39" as="geometry" />
+          <mxGeometry x="329.75" y="2686" width="174.5" height="39" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-175" value="A与B，C，D通过open_with_merge(), open_response()建立通道" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;glass=0;fontSize=15;fillColor=default;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="194.75" y="2765" width="444.5" height="39" as="geometry" />
