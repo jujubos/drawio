@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-22T08:36:22.564Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="yYbVnn_hGbOiJUqUVtal" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-22T08:44:39.299Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="j0I_w9puOzFIw32f6yxW" version="20.5.0" type="github">
   <diagram id="tubREqfwYt-Y6xkZrt_g" name="Page-1">
     <mxGraphModel dx="1426" dy="682" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -89,12 +89,12 @@
           <mxGeometry x="103" y="64.5" width="28" height="33" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-84" value="Merge（A部署的）" style="swimlane;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="314" y="120" width="167" height="159" as="geometry" />
+          <mxGeometry x="319" y="133" width="167" height="159" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-86" value="2" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="97" y="374" width="28" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="Ma6dLddBm93uTo9df8wr-87" value="open_with_merge()。用户A之后会与多个人建立通道，在建立的时候部署通道合约&lt;br&gt;并调用指定通道参与方以及自己部署的&amp;lt;merge&amp;gt;合约" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="Ma6dLddBm93uTo9df8wr-87" value="open_with_merge()。用户A之后会与多个人建立通道，在建立的时候部署通道合约&lt;br&gt;，调用open_with_merge指定通道参与方以及自己部署的&amp;lt;merge&amp;gt;合约地址。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="136" y="369" width="562" height="48" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-100" value="3" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -107,19 +107,19 @@
           <mxGeometry x="101.5" y="900" width="592" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-103" value="4" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="78" y="1011" width="28" height="33" as="geometry" />
+          <mxGeometry x="73" y="1291" width="28" height="33" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-104" value="链下交易。在没有通道被merge管理前，通道参与方的交易方式和正常通道一样。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="118" y="1017" width="556" height="30" as="geometry" />
+          <mxGeometry x="113" y="1297" width="556" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-105" value="5" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="78" y="1108" width="28" height="33" as="geometry" />
+          <mxGeometry x="68.5" y="1374" width="28" height="33" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-106" value="attach。A希望自己的通道&amp;lt;A, B&amp;gt;内的钱可以分配给其他通道使用，调用通道&amp;lt;A,B&amp;gt;&lt;br&gt;的attach()，传入每个&amp;lt;分配&amp;gt;, 调用&amp;lt;merge&amp;gt;的setDistribution，向merge转帐, &lt;br&gt;成功后，通道&amp;lt;A, B&amp;gt;的状态变为attached。&lt;br&gt;attach应该根据调用方是A还是B选择attach到对应的merge合约" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="118" y="1079" width="561" height="84" as="geometry" />
+          <mxGeometry x="113" y="1359" width="561" height="84" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-110" value="Distribution" style="swimlane;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="281" y="1180" width="200" height="97" as="geometry" />
+          <mxGeometry x="273" y="1469" width="200" height="97" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-111" value="upper_limit" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Ma6dLddBm93uTo9df8wr-110">
           <mxGeometry y="24" width="200" height="36" as="geometry" />
@@ -128,22 +128,72 @@
           <mxGeometry y="60" width="200" height="36" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-113" value="6" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1338" width="28" height="33" as="geometry" />
+          <mxGeometry x="65" y="1618" width="28" height="33" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-115" value="setDistribution。merge检查msg.sender是否正确；检查distribution和msg.value是否对应。&lt;br&gt;检查通过后将该通道的distribution信息记录下来。（记录到distributions）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="111" y="1335" width="615" height="48" as="geometry" />
+          <mxGeometry x="106" y="1615" width="615" height="48" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-116" value="7" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="68" y="1426" width="28" height="33" as="geometry" />
+          <mxGeometry x="63" y="1706" width="28" height="33" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-118" value="&amp;lt;A, B&amp;gt;通道状态变为attached之后，其通道内的钱可以根据优先级来签名来与C，D交易。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="113" y="1432" width="608" height="30" as="geometry" />
+          <mxGeometry x="108" y="1712" width="608" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-121" value="8" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="66" y="1520" width="28" height="33" as="geometry" />
+          <mxGeometry x="61" y="1800" width="28" height="33" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-122" value="detatch、close。当&amp;lt;A, C&amp;gt;通道希望结算时，可以调用close。如果只是希望将&amp;lt;A, B&amp;gt;通道的钱转入&lt;br&gt;&amp;lt;A,C&amp;gt;通道，那么调用detach。&lt;br&gt;&lt;br&gt;close中会检查传入的签名是否合法。在&amp;lt;A, B&amp;gt;通道attach之后，&amp;lt;A,C&amp;gt;通道内的总余额会得到提升，&lt;br&gt;此时A, C之间交换的签名总余额是大于真实余额的，所以如果在close之前没有detatch，close检查&lt;br&gt;签名，会发现余额不足，close就会失败。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="111" y="1465" width="677" height="120" as="geometry" />
+          <mxGeometry x="101" y="1802" width="677" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma6dLddBm93uTo9df8wr-125" value="&lt;A, B&gt;" style="swimlane;fontSize=15;fillColor=default;strokeColor=none;swimlaneLine=1;glass=0;gradientColor=none;swimlaneFillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="73" y="950" width="121" height="96" as="geometry">
+            <mxRectangle x="41" y="942" width="83" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ma6dLddBm93uTo9df8wr-126" value="balA" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Ma6dLddBm93uTo9df8wr-125">
+          <mxGeometry y="24" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma6dLddBm93uTo9df8wr-127" value="balB" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ma6dLddBm93uTo9df8wr-125">
+          <mxGeometry y="48" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma6dLddBm93uTo9df8wr-128" value="merge_C_A" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Ma6dLddBm93uTo9df8wr-125">
+          <mxGeometry y="72" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma6dLddBm93uTo9df8wr-129" value="&lt;A, C&gt;" style="swimlane;fontSize=15;fillColor=default;strokeColor=none;swimlaneLine=1;glass=0;gradientColor=none;swimlaneFillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="243" y="950" width="121" height="96" as="geometry">
+            <mxRectangle x="41" y="942" width="83" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ma6dLddBm93uTo9df8wr-130" value="balA" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Ma6dLddBm93uTo9df8wr-129">
+          <mxGeometry y="24" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma6dLddBm93uTo9df8wr-131" value="balC" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ma6dLddBm93uTo9df8wr-129">
+          <mxGeometry y="48" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma6dLddBm93uTo9df8wr-132" value="merge_C_A" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Ma6dLddBm93uTo9df8wr-129">
+          <mxGeometry y="72" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma6dLddBm93uTo9df8wr-133" value="&lt;A, D&gt;" style="swimlane;fontSize=15;fillColor=default;strokeColor=none;swimlaneLine=1;glass=0;gradientColor=none;swimlaneFillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="411" y="951" width="121" height="96" as="geometry">
+            <mxRectangle x="41" y="942" width="83" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ma6dLddBm93uTo9df8wr-134" value="balA" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Ma6dLddBm93uTo9df8wr-133">
+          <mxGeometry y="24" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma6dLddBm93uTo9df8wr-135" value="balD" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ma6dLddBm93uTo9df8wr-133">
+          <mxGeometry y="48" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma6dLddBm93uTo9df8wr-136" value="merge_C_A" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Ma6dLddBm93uTo9df8wr-133">
+          <mxGeometry y="72" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma6dLddBm93uTo9df8wr-137" value="merge" style="swimlane;fontSize=15;fillColor=default;strokeColor=none;swimlaneLine=1;glass=0;gradientColor=none;swimlaneFillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="599" y="952" width="121" height="96" as="geometry">
+            <mxRectangle x="41" y="942" width="83" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ma6dLddBm93uTo9df8wr-138" value="owner" style="whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Ma6dLddBm93uTo9df8wr-137">
+          <mxGeometry y="24" width="120" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
