@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T07:41:37.870Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Fz2F_ChbpufJc7fEYKsY" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-24T08:03:47.017Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="SU2k0ckcPWWwYQ9GrChQ" version="20.5.1" type="github">
   <diagram id="tubREqfwYt-Y6xkZrt_g" name="Page-1">
     <mxGraphModel dx="1426" dy="682" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -325,7 +325,7 @@
           <mxGeometry x="230.53" y="4039" width="325.94" height="128" as="geometry" />
         </mxCell>
         <mxCell id="Be91NCHw0jD5INQ8Ongj-52" value="所有Transfer签名都验证通过后，latest_trans记录下来每个transfer，&lt;br&gt;设置超时时间utimeout, 然后进入unlock_response()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="136" y="4164" width="623" height="60" as="geometry" />
+          <mxGeometry x="129" y="4185" width="623" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Be91NCHw0jD5INQ8Ongj-53" value="时间在utimeout之前，&lt;br&gt;其他人通过查看latest_trans检查是否有作弊行为，如果有，可以提交punishment惩罚。" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="24.5" y="4304" width="785" height="60" as="geometry" />
@@ -339,8 +339,8 @@
         <mxCell id="Be91NCHw0jD5INQ8Ongj-56" value="unlock_timeout()" style="whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="14" y="4379" width="182" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="Be91NCHw0jD5INQ8Ongj-57" value="时间超过utimeout之后，没有惩罚发生，锁定成功。&amp;nbsp;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="167" y="4460" width="480" height="36" as="geometry" />
+        <mxCell id="Be91NCHw0jD5INQ8Ongj-57" value="时间超过utimeout之后，没有惩罚发生，解锁成功。&lt;br&gt;依次处理所有Transfer：通过Transfer的to_dis_id找到对应Distribution,&lt;br&gt;然后将金额transfer.amount转移到distribution.prior[0]对应的通道。" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="103" y="4463" width="631" height="84" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
