@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T08:03:47.017Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="SU2k0ckcPWWwYQ9GrChQ" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-24T08:04:56.054Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="KW0oDpaMl-Gvk6CGXnJQ" version="20.5.1" type="github">
   <diagram id="tubREqfwYt-Y6xkZrt_g" name="Page-1">
     <mxGraphModel dx="1426" dy="682" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -339,8 +339,8 @@
         <mxCell id="Be91NCHw0jD5INQ8Ongj-56" value="unlock_timeout()" style="whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="14" y="4379" width="182" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="Be91NCHw0jD5INQ8Ongj-57" value="时间超过utimeout之后，没有惩罚发生，解锁成功。&lt;br&gt;依次处理所有Transfer：通过Transfer的to_dis_id找到对应Distribution,&lt;br&gt;然后将金额transfer.amount转移到distribution.prior[0]对应的通道。" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="103" y="4463" width="631" height="84" as="geometry" />
+        <mxCell id="Be91NCHw0jD5INQ8Ongj-57" value="时间超过utimeout之后，没有惩罚发生，解锁成功。&lt;br&gt;&lt;br&gt;通过latest_trans[user]找到所有Transfer,然后依次处理：&lt;br&gt;通过Transfer的to_dis_id找到对应Distribution,&lt;br&gt;然后将金额transfer.amount转移到distribution.prior[0]对应的通道。" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="118" y="4439" width="602" height="132" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
