@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T14:18:50.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Q-xUpFO22T_lP_UQ0HR6" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-25T14:31:28.829Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="LAjKwtfx_5Dsyh2pBpGu" version="20.5.1" type="github" pages="2">
   <diagram id="tubREqfwYt-Y6xkZrt_g" name="Page-1">
     <mxGraphModel dx="1042" dy="511" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-174" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#666666;fontSize=16;fontColor=#333333;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="60.5" y="5520" width="149.5" height="119" as="geometry" />
+        </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-53" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fontColor=#010305;" vertex="1" parent="1">
           <mxGeometry x="645" y="3802" width="532" height="161" as="geometry" />
         </mxCell>
@@ -443,7 +446,7 @@
           <mxGeometry x="672" y="4120" width="91" height="38" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-41" value="channel" style="swimlane;fontSize=20;fontColor=#010305;startSize=36;" vertex="1" parent="1">
-          <mxGeometry x="572" y="4683" width="174" height="448" as="geometry" />
+          <mxGeometry x="580" y="4698" width="174" height="448" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-96" value="open_response()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Ez-KYw9360JVl0qpVGTH-41">
           <mxGeometry x="12" y="87" width="152" height="32" as="geometry" />
@@ -530,37 +533,37 @@
           <mxGeometry x="825" y="4186" width="160" height="36" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-80" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;fontColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="348" y="4985" width="41" height="41" as="geometry" />
+          <mxGeometry x="356" y="5000" width="41" height="41" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-81" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;fontColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="440.5" y="5069" width="41" height="41" as="geometry" />
+          <mxGeometry x="448.5" y="5084" width="41" height="41" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-82" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;fontColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="364" y="4886.5" width="41" height="41" as="geometry" />
+          <mxGeometry x="372" y="4901.5" width="41" height="41" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-83" value="D" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;fontColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="240" y="5069" width="41" height="41" as="geometry" />
+          <mxGeometry x="248" y="5084" width="41" height="41" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-86" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;fontSize=20;fontColor=#010305;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="Ez-KYw9360JVl0qpVGTH-83" target="Ez-KYw9360JVl0qpVGTH-80">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="5067" as="sourcePoint" />
-            <mxPoint x="355" y="5015" as="targetPoint" />
+            <mxPoint x="308" y="5082" as="sourcePoint" />
+            <mxPoint x="363" y="5030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-87" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;fontSize=20;fontColor=#010305;entryX=0;entryY=0;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" target="Ez-KYw9360JVl0qpVGTH-81">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="385" y="5020" as="sourcePoint" />
-            <mxPoint x="456" y="4962" as="targetPoint" />
+            <mxPoint x="393" y="5035" as="sourcePoint" />
+            <mxPoint x="464" y="4977" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-88" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;fontSize=20;fontColor=#010305;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shape=link;exitX=0.634;exitY=0.024;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ez-KYw9360JVl0qpVGTH-80" target="Ez-KYw9360JVl0qpVGTH-82">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="376" y="4982" as="sourcePoint" />
-            <mxPoint x="386" y="4919" as="targetPoint" />
+            <mxPoint x="384" y="4997" as="sourcePoint" />
+            <mxPoint x="394" y="4934" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-90" value="merge_C_A" style="swimlane;fontSize=20;fontColor=#010305;startSize=36;" vertex="1" parent="1">
-          <mxGeometry x="56" y="4683" width="162" height="249" as="geometry" />
+          <mxGeometry x="64" y="4698" width="162" height="249" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-106" value="setDistribution()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Ez-KYw9360JVl0qpVGTH-90">
           <mxGeometry x="8" y="45" width="152" height="32" as="geometry" />
@@ -578,64 +581,112 @@
           <mxGeometry x="6" y="208" width="152" height="32" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-111" value="open_with_merge()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="584" y="4730" width="152" height="32" as="geometry" />
+          <mxGeometry x="592" y="4745" width="152" height="32" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-113" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="560" y="4738" width="21" height="102" as="geometry" />
+          <mxGeometry x="568" y="4753" width="21" height="102" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-117" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="558" y="5022" width="20" height="94" as="geometry" />
+          <mxGeometry x="566" y="5037" width="20" height="94" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-123" value="" style="endArrow=classic;startArrow=none;html=1;rounded=0;strokeWidth=1;fontSize=16;fontColor=#010305;shape=flexArrow;endWidth=26;endSize=5.37;dashed=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="509" y="4843" as="sourcePoint" />
-            <mxPoint x="550" y="4800.181818181818" as="targetPoint" />
+            <mxPoint x="517" y="4858" as="sourcePoint" />
+            <mxPoint x="558" y="4815.181818181818" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-124" value="1.建立通道" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=16;fillColor=#fff2cc;arcSize=48;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="446" y="4848" width="84" height="27" as="geometry" />
+          <mxGeometry x="454" y="4863" width="84" height="27" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-125" value="" style="endArrow=none;startArrow=classic;html=1;rounded=0;strokeWidth=1;fontSize=16;fontColor=#010305;shape=flexArrow;endWidth=26;endSize=5.37;dashed=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="397" y="4960" as="sourcePoint" />
-            <mxPoint x="469" y="4884" as="targetPoint" />
+            <mxPoint x="405" y="4975" as="sourcePoint" />
+            <mxPoint x="477" y="4899" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-130" value="" style="endArrow=classic;html=1;rounded=0;shadow=1;dashed=1;sketch=0;strokeWidth=1;fontSize=16;fontColor=#010305;fillColor=#dae8fc;shape=flexArrow;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#6c8ebf;" edge="1" parent="1" target="Ez-KYw9360JVl0qpVGTH-90">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="554" y="4939" as="sourcePoint" />
-            <mxPoint x="257" y="4753.25" as="targetPoint" />
+            <mxPoint x="562" y="4954" as="sourcePoint" />
+            <mxPoint x="265" y="4768.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-132" value="2.设置分配，通道受控" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="275.34" y="4796" width="168.66" height="23" as="geometry" />
+          <mxGeometry x="283.34" y="4811" width="168.66" height="23" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-137" value="" style="endArrow=classic;html=1;rounded=0;shadow=1;dashed=1;sketch=0;strokeWidth=1;fontSize=16;fontColor=#010305;fillColor=#dae8fc;shape=flexArrow;endWidth=15;endSize=7.08;strokeColor=#6c8ebf;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="391.5" y="4997" as="sourcePoint" />
-            <mxPoint x="545.5" y="4948" as="targetPoint" />
+            <mxPoint x="399.5" y="5012" as="sourcePoint" />
+            <mxPoint x="553.5" y="4963" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-138" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;strokeWidth=2;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="223" y="4780" width="14" height="98" as="geometry" />
+          <mxGeometry x="231" y="4795" width="14" height="98" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-139" value="" style="endArrow=classic;html=1;rounded=0;shadow=1;dashed=1;sketch=0;strokeWidth=1;fontSize=16;fontColor=#010305;fillColor=#d5e8d4;shape=flexArrow;strokeColor=#82b366;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="4892" as="sourcePoint" />
-            <mxPoint x="240" y="4833" as="targetPoint" />
+            <mxPoint x="368" y="4907" as="sourcePoint" />
+            <mxPoint x="248" y="4848" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-141" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;3.提交签名；转账；通道解控&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=16;fillColor=#d5e8d4;arcSize=48;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="224.5" y="4888" width="131" height="44" as="geometry" />
+          <mxGeometry x="232.5" y="4903" width="131" height="44" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-144" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=#9673a6;fontSize=14;fontColor=#095C86;fillColor=#e1d5e7;" edge="1" parent="1" target="Ez-KYw9360JVl0qpVGTH-117">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="392" y="5014" as="sourcePoint" />
-            <mxPoint x="409.5" y="4935" as="targetPoint" />
+            <mxPoint x="400" y="5029" as="sourcePoint" />
+            <mxPoint x="417.5" y="4950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-146" value="关闭通道" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fontSize=14;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="437" y="5022" width="80" height="23" as="geometry" />
+          <mxGeometry x="445" y="5037" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-156" value="Distribution" style="swimlane;strokeColor=#6c8ebf;fontSize=16;fillColor=#dae8fc;startSize=42;" vertex="1" parent="1">
+          <mxGeometry x="64" y="5142" width="154" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-157" value="upper_limit: uint256" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fontSize=16;fillColor=#d5e8d4;" vertex="1" parent="Ez-KYw9360JVl0qpVGTH-156">
+          <mxGeometry x="1.5" y="42" width="152.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-158" value="prior: address[]" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="Ez-KYw9360JVl0qpVGTH-156">
+          <mxGeometry x="0.5" y="74" width="153.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-159" value="一个Distribution是被多个通道共享的钱。&lt;br&gt;这笔钱由Distribution的优先级数组prior所控制。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#095C86;" vertex="1" parent="1">
+          <mxGeometry x="215" y="5185" width="398" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-161" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#666666;fontSize=16;fontColor=#333333;fillColor=#f5f5f5;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="64" y="5313" width="153" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-162" value="Transfer" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=16;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="64" y="5277" width="152" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-163" value="from_dis_id" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="72.5" y="5316" width="129.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-164" value="to_dis_id" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="72" y="5354" width="129.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-165" value="amount" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="72" y="5393" width="129.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-166" value="version" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="72" y="5429" width="129.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-167" value="Transfer代表额度的转移：&lt;br&gt;从from_dis_id的Distribution转移了amount到to_dis_id&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#095C86;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="5370.5" width="398" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-169" value="Punishment" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=16;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="60.25" y="5484" width="152" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-170" value="from_dis_id" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="68.75" y="5525" width="129.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-171" value="to_dis_id" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="68.25" y="5561" width="129.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-173" value="version" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="68.25" y="5600" width="129.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-176" value="Punishment表示从from_dis_id到to_dis_id的所有Transfer中，最新的版本号是多少。&lt;br&gt;Punishment由to_dis_id的Distribution所有者签名，并发给对应Transfer路径上的所有人。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#095C86;" vertex="1" parent="1">
+          <mxGeometry x="232" y="5555" width="398" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
