@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T08:04:56.054Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="KW0oDpaMl-Gvk6CGXnJQ" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T04:03:33.034Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="6bGBn_1QkNcdwO5kFCAR" version="20.5.1" type="github">
   <diagram id="tubREqfwYt-Y6xkZrt_g" name="Page-1">
     <mxGraphModel dx="1426" dy="682" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ma6dLddBm93uTo9df8wr-77" value="deploy &amp;lt;merge&amp;gt;。用户A希望自己通道内的钱可以被管理（将来用于给自己的其他通道使用），&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;那么用户&amp;lt;A&amp;gt;需要自己事先部署一个merge合约。&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="Ma6dLddBm93uTo9df8wr-77" value="deploy &amp;lt;merge&amp;gt;。用户A希望自己通道内的钱可以被管理（将来用于给自己的其他通道使用），&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;那么用户&amp;lt;A&amp;gt;需要自己事先部署一个merge合约。要在通道创建之前部署。&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="144" y="57" width="646" height="48" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-82" value="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="103" y="64.5" width="28" height="33" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-84" value="Merge（A部署的）" style="swimlane;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="319" y="133" width="167" height="159" as="geometry" />
+          <mxGeometry x="337.5" y="144" width="167" height="159" as="geometry" />
         </mxCell>
         <mxCell id="Ma6dLddBm93uTo9df8wr-86" value="2" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="97" y="374" width="28" height="33" as="geometry" />
@@ -240,8 +240,8 @@
         <mxCell id="Be91NCHw0jD5INQ8Ongj-19" value="通道&lt;A, B&gt;" style="swimlane;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="174" y="625" width="167" height="159" as="geometry" />
         </mxCell>
-        <mxCell id="Be91NCHw0jD5INQ8Ongj-20" value="可以被merge_C管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="Be91NCHw0jD5INQ8Ongj-19">
-          <mxGeometry x="21" y="46" width="114" height="24" as="geometry" />
+        <mxCell id="Be91NCHw0jD5INQ8Ongj-20" value="A的钱可以被merge_C管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="Be91NCHw0jD5INQ8Ongj-19">
+          <mxGeometry x="9.75" y="43" width="146" height="24" as="geometry" />
         </mxCell>
         <mxCell id="Be91NCHw0jD5INQ8Ongj-23" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="177.5" y="3123" width="30" height="30" as="geometry" />
