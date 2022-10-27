@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T14:31:28.829Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="LAjKwtfx_5Dsyh2pBpGu" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-27T03:42:43.000Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="n-cgMVRrHyzadTZhSitj" version="20.5.1" type="github" pages="2">
   <diagram id="tubREqfwYt-Y6xkZrt_g" name="Page-1">
     <mxGraphModel dx="1042" dy="511" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Ez-KYw9360JVl0qpVGTH-174" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#666666;fontSize=16;fontColor=#333333;fillColor=#f5f5f5;" vertex="1" parent="1">
-          <mxGeometry x="60.5" y="5520" width="149.5" height="119" as="geometry" />
+          <mxGeometry x="65.13" y="5583" width="151.87" height="119" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-53" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fontColor=#010305;" vertex="1" parent="1">
           <mxGeometry x="645" y="3802" width="532" height="161" as="geometry" />
@@ -640,53 +640,56 @@
         <mxCell id="Ez-KYw9360JVl0qpVGTH-146" value="关闭通道" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fontSize=14;fillColor=#e1d5e7;" vertex="1" parent="1">
           <mxGeometry x="445" y="5037" width="80" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="Ez-KYw9360JVl0qpVGTH-156" value="Distribution" style="swimlane;strokeColor=#6c8ebf;fontSize=16;fillColor=#dae8fc;startSize=42;" vertex="1" parent="1">
-          <mxGeometry x="64" y="5142" width="154" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="Ez-KYw9360JVl0qpVGTH-157" value="upper_limit: uint256" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fontSize=16;fillColor=#d5e8d4;" vertex="1" parent="Ez-KYw9360JVl0qpVGTH-156">
-          <mxGeometry x="1.5" y="42" width="152.5" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="Ez-KYw9360JVl0qpVGTH-158" value="prior: address[]" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="Ez-KYw9360JVl0qpVGTH-156">
-          <mxGeometry x="0.5" y="74" width="153.5" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="Ez-KYw9360JVl0qpVGTH-159" value="一个Distribution是被多个通道共享的钱。&lt;br&gt;这笔钱由Distribution的优先级数组prior所控制。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#095C86;" vertex="1" parent="1">
-          <mxGeometry x="215" y="5185" width="398" height="38" as="geometry" />
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-159" value="一个Distribution是被多个通道共享的钱。&lt;br&gt;这笔钱由Distribution的优先级数组prior所控制。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#095C86;" vertex="1" parent="1">
+          <mxGeometry x="251.5" y="5202" width="398" height="38" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-161" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#666666;fontSize=16;fontColor=#333333;fillColor=#f5f5f5;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="64" y="5313" width="153" height="153" as="geometry" />
+          <mxGeometry x="68.63" y="5376" width="150.37" height="150.37" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-162" value="Transfer" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=16;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="64" y="5277" width="152" height="36" as="geometry" />
+          <mxGeometry x="68.63" y="5340" width="155.37" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="Ez-KYw9360JVl0qpVGTH-163" value="from_dis_id" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
-          <mxGeometry x="72.5" y="5316" width="129.5" height="30" as="geometry" />
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-163" value="from_dis_id" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fontSize=16;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="77.13" y="5379" width="129.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ez-KYw9360JVl0qpVGTH-164" value="to_dis_id" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
-          <mxGeometry x="72" y="5354" width="129.5" height="30" as="geometry" />
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-164" value="to_dis_id" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fontSize=16;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="76.63" y="5417" width="129.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ez-KYw9360JVl0qpVGTH-165" value="amount" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
-          <mxGeometry x="72" y="5393" width="129.5" height="30" as="geometry" />
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-165" value="amount" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fontSize=16;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="76.63" y="5456" width="129.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ez-KYw9360JVl0qpVGTH-166" value="version" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
-          <mxGeometry x="72" y="5429" width="129.5" height="30" as="geometry" />
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-166" value="version" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fontSize=16;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="76.63" y="5492" width="129.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ez-KYw9360JVl0qpVGTH-167" value="Transfer代表额度的转移：&lt;br&gt;从from_dis_id的Distribution转移了amount到to_dis_id&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#095C86;" vertex="1" parent="1">
-          <mxGeometry x="232.5" y="5370.5" width="398" height="38" as="geometry" />
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-167" value="Transfer代表额度的转移：&lt;br&gt;从from_dis_id的Distribution转移了amount到to_dis_id的Distribution" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#095C86;" vertex="1" parent="1">
+          <mxGeometry x="248" y="5350" width="531" height="38" as="geometry" />
         </mxCell>
         <mxCell id="Ez-KYw9360JVl0qpVGTH-169" value="Punishment" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=16;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="60.25" y="5484" width="152" height="36" as="geometry" />
+          <mxGeometry x="64.88" y="5547" width="154.12" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="Ez-KYw9360JVl0qpVGTH-170" value="from_dis_id" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
-          <mxGeometry x="68.75" y="5525" width="129.5" height="30" as="geometry" />
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-170" value="from_dis_id" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fontSize=16;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="73.38" y="5588" width="129.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ez-KYw9360JVl0qpVGTH-171" value="to_dis_id" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
-          <mxGeometry x="68.25" y="5561" width="129.5" height="30" as="geometry" />
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-171" value="to_dis_id" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fontSize=16;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="72.88" y="5624" width="129.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ez-KYw9360JVl0qpVGTH-173" value="version" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
-          <mxGeometry x="68.25" y="5600" width="129.5" height="30" as="geometry" />
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-173" value="version" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fontSize=16;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="72.88" y="5663" width="129.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ez-KYw9360JVl0qpVGTH-176" value="Punishment表示从from_dis_id到to_dis_id的所有Transfer中，最新的版本号是多少。&lt;br&gt;Punishment由to_dis_id的Distribution所有者签名，并发给对应Transfer路径上的所有人。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#095C86;" vertex="1" parent="1">
-          <mxGeometry x="232" y="5555" width="398" height="38" as="geometry" />
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-176" value="Punishment表示从from_dis_id到to_dis_id的所有Transfer中，最新的版本号是多少。&lt;br&gt;&lt;br&gt;Punishment由to_dis_id的Distribution所有者签名，并发给对应Transfer路径上的所有人。&lt;br&gt;&lt;br&gt;如果有人提交的Transfer不是最新的Transfer，可以提交Punishment惩罚。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#095C86;" vertex="1" parent="1">
+          <mxGeometry x="250.5" y="5607" width="398" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-177" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#666666;fontSize=16;fontColor=#333333;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="62.88" y="5229" width="163.12" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-178" value="Distribution" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=16;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="62.629999999999995" y="5192" width="168.37" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-179" value="upper_limit: uint256" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fontSize=16;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="71.13" y="5236" width="148.87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-KYw9360JVl0qpVGTH-180" value="prior: address[]" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fontSize=16;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="70.63" y="5269" width="149.37" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
