@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T13:02:33.809Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="pUyDfTJL4FSGGxivEndp" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T13:08:00.673Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ZLXnRELajc65Ra7DWZwS" version="21.2.9" type="github">
   <diagram name="第 1 页" id="Ibj0LSlTkFttdvkB4khN">
     <mxGraphModel dx="1675" dy="993" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,6 +59,9 @@
         </mxCell>
         <mxCell id="tmR8ZYnyTiNwy0tVGYZ3-20" value="NextToken" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="38" y="285" width="86" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tmR8ZYnyTiNwy0tVGYZ3-36" value="标识符、关键字、&lt;br&gt;常量(字符、数字、字符串）、&lt;br&gt;界符、&lt;br&gt;ERR, EOF" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="179" y="242" width="218" height="96" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
