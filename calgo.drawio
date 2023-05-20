@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-19T03:54:20.968Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="QmHeXfIu7NN2p3oLmEe3" version="21.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-20T09:48:46.368Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="J5608PJrr9xRnp7mBETL" version="21.3.2" type="github" pages="3">
   <diagram name="词法分析器" id="Ibj0LSlTkFttdvkB4khN">
     <mxGraphModel dx="1675" dy="993" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -198,6 +198,17 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4g2cVANvibnJXdZmAudJ" name="表格管理">
+    <mxGraphModel dx="1675" dy="993" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IE-N0_6VJfnjzhp2eEOr-1" value="作用域管理:&lt;br&gt;- while&lt;br&gt;- do while&lt;br&gt;- if&lt;br&gt;- function&lt;br&gt;- switch&lt;br&gt;- for" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-281" y="-78" width="331" height="188" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
