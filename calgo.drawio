@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-21T13:21:30.102Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="AcCKGMq1WATISyF7-Bdf" version="21.3.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-21T13:23:42.639Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="zQM5g7A2bDWWkI5qoJ4p" version="21.3.2" type="github" pages="4">
   <diagram name="词法分析器" id="Ibj0LSlTkFttdvkB4khN">
     <mxGraphModel dx="1675" dy="993" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -216,12 +216,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fDx-_3ulElS1yOtJspjT" name="第 4 页">
-    <mxGraphModel dx="1675" dy="593" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1675" dy="993" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kYbwtkvneUavhJcaEGcv-1" value="p95: 在函数genVar" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontFamily=Helvetica;fontColor=default;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="32" width="30" height="60" as="geometry" />
+        <mxCell id="kYbwtkvneUavhJcaEGcv-1" value="p95: 在函数genVarInit中，首先处理整型常量和字符常量的变量对象，它们不需要初始化。&lt;br&gt;&lt;b&gt;我知道这里不需要初始化的意思是不需要产生初始化的三地址代码，但是为什么不需要呢&lt;/b&gt;？" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontFamily=Helvetica;fontColor=default;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-352" y="-65" width="748" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
