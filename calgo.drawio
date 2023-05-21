@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-21T13:26:19.935Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="LBjAhVNwSen-wu_wqugs" version="21.3.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-21T14:02:15.355Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="BAugs51KX8b_EUEHhpsw" version="21.3.2" type="github" pages="4">
   <diagram name="词法分析器" id="Ibj0LSlTkFttdvkB4khN">
     <mxGraphModel dx="1675" dy="993" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -222,6 +222,12 @@
         <mxCell id="1" parent="0" />
         <mxCell id="kYbwtkvneUavhJcaEGcv-1" value="p95: 在函数genVarInit中，首先处理整型常量和字符常量的变量对象，它们不需要初始化。&lt;br&gt;&lt;b&gt;我知道这里不需要初始化的意思是不需要产生初始化的三地址代码，但是为什么不需要呢&lt;/b&gt;？" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontFamily=Helvetica;fontColor=#FF0000;direction=south;" parent="1" vertex="1">
           <mxGeometry x="-447" y="-59" width="748" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3rb2BZxfYUlThos0719Q-1" value="左值是如何界定的？" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-441" y="35" width="178" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="3rb2BZxfYUlThos0719Q-2" value="p77: 是否允许被赋值或者被取地址" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-272" y="39" width="234" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
