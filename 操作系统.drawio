@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T03:16:28.569Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_w4y823k5VDg9340NU_8" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T03:17:47.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="N-xgVsxPjyIm3Y0yTXCl" version="21.3.8" type="github">
   <diagram name="第 1 页" id="foT0SCBSdI3_RRnVFeLk">
     <mxGraphModel dx="1902" dy="729" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,8 +13,8 @@
         <mxCell id="4TGvPuajLl9bLqOAQWgt-4" value="用alloc申请用户空间发生了什么" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-337" y="432" width="202" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="4TGvPuajLl9bLqOAQWgt-5" value="1. 查找可用内存（首次适应算法）" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-326" y="474" width="262" height="23" as="geometry" />
+        <mxCell id="4TGvPuajLl9bLqOAQWgt-5" value="1. 查找可用内存（首次适应算法）&lt;br&gt;2. 创建一个vma描述这段内存，vma插入vma链表中&lt;br&gt;3. 为这段内存分配物理页并建立映射" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-353" y="484" width="331" height="39" as="geometry" />
         </mxCell>
         <mxCell id="4TGvPuajLl9bLqOAQWgt-77" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;rounded=0;fontFamily=Helvetica;fontColor=default;fillColor=none;gradientColor=none;html=1;" vertex="1" parent="1">
           <mxGeometry x="166" y="490" width="60" height="386.9500427246094" as="geometry" />
